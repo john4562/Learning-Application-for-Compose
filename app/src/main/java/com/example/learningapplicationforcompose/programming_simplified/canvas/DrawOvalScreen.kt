@@ -43,5 +43,5 @@ private fun ShowDrawOvalScreen() {
     Text(text = "Games")
     Spacer(modifier = Modifier.fillMaxSize())
     Divider(Modifier.height(19.dp))
-    jjfg djf tjjfgjfg
+    hdgd fgjf fjfgj jfjg
 }
