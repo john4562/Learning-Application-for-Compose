@@ -44,3 +44,7 @@ private fun ShowDrawOvalScreen() {
     Spacer(modifier = Modifier.fillMaxSize())
     Divider(Modifier.height(19.dp))
 }
+
+private fun mk() {
+    println("Show Datas")
+}
