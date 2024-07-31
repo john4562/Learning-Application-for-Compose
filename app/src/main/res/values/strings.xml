@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Learning Application for Compose</string>
+    <string name="title_activity_quotes_app">QuotesAppActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+</resources>
