@@ -2,7 +2,10 @@ package com.example.learningapplicationforcompose.programming_simplified.canvas
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Divider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -38,4 +41,6 @@ fun DrawOvalScreen(modifier: Modifier = Modifier) {
 private fun ShowDrawOvalScreen() {
     DrawOvalScreen()
     Text(text = "Games")
+    Spacer(modifier = Modifier.fillMaxSize())
+    Divider(Modifier.height(19.dp))
 }
